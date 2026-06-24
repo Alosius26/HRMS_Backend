@@ -11,4 +11,9 @@ public class cont {
     public String get() {
         return "Hello";
     }
+
+    @GetMapping("/c1")
+    public String get1() {
+        return "vikram";
+    }
 }
